@@ -93,3 +93,13 @@ print(bool(None))  # False, stan nieokreslony, odpowiednik null w innych języka
 
 print(True and False)  # and -> i -> False
 print(True or False)  # or -> lub -> True
+
+a = 6
+b = 8
+# wynik porównania zwraca typ boolean
+print(f"Porównanie {a} > {b} = {a > b}")  # Porównanie 6 > 8 = False
+print(f"Porównanie {a} < {b} = {a < b}")  # Porównanie 6 < 8 = True
+print(f"Porównanie {a <= b=}")  # Porównanie a <= b=True
+print(f"Porównanie {a >= b=}")  # Porównanie a >= b=False
+print(f"Porównanie {a} == {b} = {a == b}")  # Porównanie 6 == 8 = False, == porównanie
+print(f"Porównanie {a} != {b} = {a != b}")  # Porównanie 6 != 8 = True, czy różne
