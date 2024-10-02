@@ -44,4 +44,41 @@ print("8" + "8" + "8")  # 888
 
 print("Radek" + str(39))  # str() - rzutowanie, zamiana liczby na tekst, Radek39
 # Process finished with exit code 0 - program skończyl się bez błędu
-# Process finished with exit code 1 - -oznacza błąd podczas wykonywania programu
+# Process finished with exit code 1 - - oznacza błąd podczas wykonywania programu
+
+# zmienna - pudełko na dane
+# przechowuje jedna wartosc
+# typowanie dynamiczne
+# w dowolnym momencie mogę do pudełka wrzucić dowolną daną
+# typ jest wnioskowany na podstawie zawartości pudełka
+# snake_case - konwencja nazewnicza dla zmiennych
+# nazwa zmiennej powinna wskazywać to co przechowuje
+
+liczba = 29
+print(liczba)  # 29 wypisanie zawartości zmiennej, nazwa bez cudzysłowia
+print(type(liczba))  # <class 'int'>
+
+liczba = "39"
+print(type(liczba))  # <class 'str'>
+print(5 * liczba)  # 3939393939
+print(5 * int(liczba))  # 195, int() - rzutowanie na int
+
+name = "Radek"
+print(type(name))
+print(name)
+# <class 'str'>
+# Radek
+
+name = 90
+# print(name + "Kowalski")# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# podpowiedź typów, to nie jest deklaracja typów!!!
+name: str = 'Radek'
+print(name)
+
+name = 87
+print(name)  # 87
+
+age = 56
+print(type(age))
+print(age)
