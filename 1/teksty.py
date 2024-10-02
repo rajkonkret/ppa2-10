@@ -57,3 +57,6 @@ print("""Tekst
 
 """Komentarz
     wielolinijkowy"""
+
+'''Komentarz 
+    wielolinijkowy'''
