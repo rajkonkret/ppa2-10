@@ -95,3 +95,51 @@ print(lista_copy)
 # 2141615273024
 # ['Radek', 'Karol', 'Zenek', 'Tomek', 'Magda']
 
+liczby = [54, 999, 34, 22, 12.34, 687]
+print(liczby)  # [54, 999, 34, 22, 12.34, 687]
+print(type(liczby))  # <class 'list'>
+
+liczby.sort()  # sortuje oryginalną listę
+print(liczby)  # [12.34, 22, 34, 54, 687, 999]
+
+liczby = [54, 999, 34, 22, 12.34, 687, "A"]
+print(liczby)  # [54, 999, 34, 22, 12.34, 687, 'A']
+
+# liczby.sort()  # TypeError: '<' not supported between instances of 'str' and 'int'
+
+lista_osob = ['radek', 'tomek', 'zenek', 'ania']
+lista_osob.sort()
+print(lista_osob)  # ['ania', 'radek', 'tomek', 'zenek']
+
+# sortowanie i odwrócenie
+lista_osob.sort(reverse=True)
+print(lista_osob)  # ['zenek', 'tomek', 'radek', 'ania']
+
+# tylko odwrócenie
+lista_osob.reverse()
+print(lista_osob)  # ['ania', 'radek', 'tomek', 'zenek']
+
+liczby[3] = 666
+print(liczby[0:3])
+print(liczby[-2])
+print(liczby)  # [54, 999, 34, 666, 12.34, 687, 'A']
+
+liczby.remove("A")
+print(liczby)  # [54, 999, 34, 666, 12.34, 687]
+liczby.append(2)
+print(liczby.pop(2))  # usunę element o indeksie 2 -> 34
+
+del liczby  # usunięcie calej listy z pamięci
+# print(liczby)# NameError: name 'liczby' is not defined
+
+# rozpakowanie sekwencji
+tekst = "Pyth on."
+lista_python = list(tekst)
+print(lista_python)  # ['P', 'y', 't', 'h', ' ', 'o', 'n', '.']
+
+lista_jeden = [tekst]
+print(lista_jeden)  # ['Pyth on.']
+
+krotka = tuple(lista_copy)  # tuple() - rzutowanie na krotkę, tuple
+print(krotka)  # ('Radek', 'Karol', 'Zenek', 'Tomek', 'Magda')
+print(type(krotka))  # <class 'tuple'>
