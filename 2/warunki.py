@@ -108,3 +108,38 @@ else:
 
 print(lista_b)
 # ['Ostrzeżenie']
+
+# napisać tezt z...
+# zadać pytanie
+# pobrać odpowiedź
+# sprawdzic odpowiedź
+# wypisać wynik testu
+# dodać punktację
+punkty = 0
+odp = input("W którym roku był Chrzest Poski?")
+if odp == "966":
+    print("Brawo")
+    punkty += 1  # punkty = punkty + 1
+else:
+    print("Nie martw się, historia teraz będzie połaczona z biologia:)")
+
+print("Punkty:", punkty)
+# spam += 1    spam = spam + 1
+# spam -= 1    spam = spam - 1
+# spam *= 1    spam = spam * 1
+# spam /= 1    spam = spam / 1
+# spam %= 1    spam = spam % 1
+odp = input("ile krowa ma nóg?")
+if odp == "4":
+    print("Brawo")
+    punkty += 1  # punkty = punkty + 1
+else:
+    print("Nie martw się, historia teraz będzie połaczona z biologia:)")
+
+print("Punkty:", punkty)
+# W którym roku był Chrzest Poski?966
+# Brawo
+# Punkty: 1
+# ile krowa ma nóg?4
+# Brawo
+# Punkty: 2
