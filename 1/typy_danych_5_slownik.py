@@ -44,8 +44,22 @@ print(dictionary.get("Imie", "Default"))  # Default
 # napisac aplikacje kalkulator
 # podaj dwie liczby -> input x 2
 # wyswietl wynik -> print
-a = float(input("Podaj pierwszą  liczbę"))
-# a = input("Podaj pierwszą  liczbę")
-b = input("Podaj drugą  liczbę")
-print(a + int(b))  # 6.0
-# print(a + b)
+# a = float(input("Podaj pierwszą  liczbę"))
+# # a = input("Podaj pierwszą  liczbę")
+# b = input("Podaj drugą  liczbę")
+# print(a + int(b))  # 6.0
+# # print(a + b)
+# ctrl /
+
+# napisac aplikacje słownik pol-ang
+# wypisac zasób słów -> klucze
+# pobrac od użytkownika słowo do przetłumaczenia
+# wypisac tłumaczenie
+# zdefiniowac słownik
+pol_ang = {'kot': 'cat', 'pies': 'dog', 'roof': 'dach'}
+print(f"Mamy w słowniku {pol_ang.keys()}")
+odp = input("Podaj słówko do przetłumaczenia")
+print(pol_ang[odp.lower().strip()])
+print(pol_ang.get(odp, "nie mo"))
+# cat
+# nie mo
