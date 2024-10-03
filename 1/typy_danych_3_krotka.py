@@ -57,3 +57,7 @@ print(name1, name2, name3)  # Radek ['Tomek', 'Zenek', 'Olek', 'Robert'] Michał
 lista = list(tupla_imiona)
 print(lista)  # ['Radek', 'Tomek', 'Zenek', 'Olek', 'Robert', 'Michał']
 print(type(lista))  # <class 'list'>
+lista.append("Zbyszek")
+
+tupla_imiona = tuple(lista)
+print(tupla_imiona)  # ('Radek', 'Tomek', 'Zenek', 'Olek', 'Robert', 'Michał', 'Zbyszek')
