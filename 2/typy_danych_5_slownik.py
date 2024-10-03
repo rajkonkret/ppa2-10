@@ -59,7 +59,7 @@ print(dictionary.get("Imie", "Default"))  # Default
 pol_ang = {'kot': 'cat', 'pies': 'dog', 'roof': 'dach'}
 print(f"Mamy w słowniku {pol_ang.keys()}")
 odp = input("Podaj słówko do przetłumaczenia")
-print(pol_ang[odp.lower().strip()])
+# print(pol_ang[odp.lower().strip()])
 print(pol_ang.get(odp, "nie mo"))
 # cat
 # nie mo
