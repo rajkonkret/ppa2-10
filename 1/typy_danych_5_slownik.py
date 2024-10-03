@@ -35,3 +35,17 @@ print(dictionary['imie'])  # Wiktor
 # print(dictionary['Imie'])# KeyError: 'Imie' brak takiego klucza
 print(dictionary.get("Imie"))  # None
 print(dictionary.get("Imie", "Default"))  # Default
+
+# # input()
+# tekst = input("Podaj imię")
+# print(tekst)
+# print(type(tekst))  # <class 'str'> zwraca str
+
+# napisac aplikacje kalkulator
+# podaj dwie liczby -> input x 2
+# wyswietl wynik -> print
+a = float(input("Podaj pierwszą  liczbę"))
+# a = input("Podaj pierwszą  liczbę")
+b = input("Podaj drugą  liczbę")
+print(a + int(b))  # 6.0
+# print(a + b)
