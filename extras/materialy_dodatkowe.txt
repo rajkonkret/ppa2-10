@@ -126,3 +126,4 @@ pip freeze > requirements.txt
 pip install -r .\requirements.txt
 
 pip install pyinstaller
+pyinstaller.exe --onefile --noconsole .\3\pliki_zad1.py
